@@ -4,7 +4,7 @@ table {
     border-collapse: collapse;
     border: 1px solid #000;  
     width: 80%; 
-    margin:auto; 
+    margin:1em auto; 
 }
 
 /*
@@ -27,6 +27,13 @@ td, th {
     padding: .5em;   
 }
 
-.col1 {
-    width: 10%;
+table.client th{
+    width: 40%; 
+    text-align: left;
+}
+
+/* AIA styles */
+main.aia table tr:nth-child(even) {
+    background-color: #F1F1F1;
+    color: #0d0d0d;
 }
