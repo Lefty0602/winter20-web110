@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Pedro Hernandez's WEB110 Portal Website</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/tables.css" />
+ </head>
+ <body>
+     <header>
+     <h1>Pedro's WEB110 Portal Website</h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Welcome</a>
+       <a href="elements.html">HTML Elements</a>
+       <a href="big/index.html">BIG</a>
+       <a href="aia.html">AIA</a>
+       <a href="flowchart.html">Flowchart</a>
+       <a href="fp/index.html">Final Project</a>
+       <a href="http://w3schools.com" target="_blank">W3 Schools</a>
+       <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
+       <a href="contact.php">Contact Pedro</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+     </header>
+     
+   <main class="wrapper aia">
+       
+       <h2 class="subheader">Audience, Issues and Approach</h2>
+        <table class="client">
+            <tr>
+                <th>Client's Name and the Final Decision Maker</th>
+                <td>AJ Vawter and Fred Crone</td>
+            </tr>
+            <tr>
+                <th>Client's Business Name or Website</th>
+                <td>Better Batter Bakery</td>
+            </tr>
+            <tr>
+                <th>Redesign or Brand New Website</th>
+                <td>Redesign, http://bbbakery.biz/</td>
+            </tr>
+            <tr>
+                <th>Type of Website</th>
+                <td>Business and Marketing</td>
+            </tr>
+            <tr>
+                <th>Client's Goal(s)</th>
+                <td>AJ and Fred are seeking a more professional look to their website and to bring their small start-up business to light in the Dallas/Ft. Worth area.</td>
+            </tr>
+        </table>
+           
+        <table class="audience">
+            <tr>
+                <th>Audiences</th>
+                <th>Issues, Concerns, Needs</th>
+                <th>Approach</th>
+            </tr>
+            <tr>
+                <td><strong>Current Clients:</strong><br>AJ and Fred currently have three major accounts with a restaurant corporate office, a hospital, and a Catholic school where they bring in fresh cinnamon rolls/pastries into the office on a weekly basis for their employees to enjoy.  The employees working in these offices primarily appear to be middle-classed women in their mid-20s to 40s.</td>
+                <td>Not user friendly, very basic and not appealing to the eye, no list of baked goods, no contact or order form, redudant information</td>
+                <td>Redesign the style of the whole website, create a navigation link or menu to showcase list of goods and prices, and create a contact and/or order form.</td>
+            </tr>
+            <tr>
+                <td><strong>Potential Clients:</strong><br>Outside of the their three major accounts, they hope to attract business from individual customers; for instance, from the employees from the above-mentioned corporate offices.  They are also looking into obtaining a space at the local farmers markets in the area to sell their pastries and drum up business.  They are looking into catering opportunities for events such as weddings or birthday parties.</td>
+                <td>In addition to the above-mentioned under Current Clients, the website did not seem "personable", "unrelatable".</td>
+                <td>Upload images of AJ and Fred and create an "about us" page to show potential customers who they are and to read about how Better Batter Bakery came to be.  Upload images of their baked goods.  Create links to their social media accounts.</td>
+            </tr>
+            <tr>
+                <td><strong>Affiliates:</strong><br>They have affiliated themselves with a coffee roasting company in hopes, of course, to drum up more business for the bakery.</td>
+                <td>There is no acknowledgement of the affiliates.</td>
+                <td>Mention the affiliates and perhaps create a link to the affiliates' webpage.</td>
+            </tr>
+        </table>
+     <footer>
+      <p><small>&copy; 2020 by <a href="contact.php">Contact Pedro Hernandez </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+    </footer>
+  </main>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+     
+ </body>
+</html>

@@ -1,0 +1,39 @@
+/* styles for tables */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;  
+    width: 80%; 
+    margin:1em auto; 
+}
+
+/*
+tr {
+    vertical-align: top;
+}
+*/
+
+tr:nth-child(even), thead tr {
+    background-color: #ffe033;
+    color: #0d0d0d;
+}
+
+thead tr {
+    background-color: red;
+}
+
+td, th {
+    border: 1px solid #000; 
+    padding: .5em;   
+}
+
+table.client th{
+    width: 40%; 
+    text-align: left;
+}
+
+/* AIA styles */
+main.aia table tr:nth-child(even) {
+    background-color: #F1F1F1;
+    color: #0d0d0d;
+}
